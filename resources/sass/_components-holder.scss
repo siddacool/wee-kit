@@ -23,16 +23,26 @@
   overflow: auto;
 
   .component-sub-holder {
-    display: none;
-    padding: 55px;
+    padding: 1.5rem;
 
-    &.show {
-      display: block;
+    @include desktopMix {
+      display: none;
+      padding: 55px;
+
+      &.show {
+        display: block;
+      }
     }
 
     .wee-heading {
       display: block;
       padding-bottom: 6px;
+    }
+
+    .wee-tab {
+      @include desktopMix {
+        width: 600px;
+      }
     }
   }
 
@@ -100,6 +110,36 @@
       margin: 40px 0;
       table-layout: auto;
       width: 100%;
+
+      @include mobileXL {
+        display: block;
+
+        tbody,
+        tr {
+          display: block;
+        }
+
+        tr {
+          background: #f4f5f7;
+          margin-bottom: 1rem;
+        }
+
+        td {
+          align-items: center;
+          background-color: transparent;
+          border-radius: 4px;
+          display: flex;
+
+          &:last-child {
+            border-bottom-color: transparent;
+          }
+
+          span,
+          .wee-heading {
+            padding: 0;
+          }
+        }
+      }
     }
 
     td {
