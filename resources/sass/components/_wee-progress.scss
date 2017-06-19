@@ -1,0 +1,14 @@
+$wee-progress-bg-color: $aui-b300;
+
+.wee-progress {
+  height: 10px;
+
+  .progress-fill {
+    background-color: $wee-progress-bg-color;
+    border-radius: 5px;
+    display: block;
+    height: 10px;
+    transition: width .2s ease-in-out;
+    width: 0;
+  }
+}

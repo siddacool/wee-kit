@@ -1,0 +1,59 @@
+$wee-tab-color: $aui-n500;
+$wee-tab-border-color: $aui-n30;
+$wee-tab-active-color: $aui-b400;
+
+.wee-tab {
+  .tab-list {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    position: relative;
+
+    &::before {
+      background-color: $wee-tab-border-color;
+      border-radius: 2px;
+      bottom: 0;
+      content: '';
+      height: 2px;
+      left: 10px;
+      margin: 0;
+      position: absolute;
+      right: 10px;
+      width: inherit;
+    }
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    color: $wee-tab-color;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0;
+    padding: 5px 10px;
+    position: relative;
+    white-space: nowrap;
+
+    &.active {
+      color: $wee-tab-active-color;
+
+      &::after {
+        background-color: $wee-tab-active-color;
+        border-radius: 2px;
+        bottom: 0;
+        content: '';
+        height: 2px;
+        left: 10px;
+        margin: 0;
+        position: absolute;
+        right: 10px;
+        width: inherit;
+      }
+    }
+  }
+}

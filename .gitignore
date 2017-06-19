@@ -1,0 +1,7 @@
+.idea/
+.build
+/*.log
+node_modules/
+gh-pages/
+.DS_Store
+/env.js

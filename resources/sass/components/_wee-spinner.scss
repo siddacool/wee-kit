@@ -1,0 +1,48 @@
+$wee-spinner-fill: $aui-n500;
+$wee-spinner-light-fill: #fff;
+
+@mixin wee-function--spinner-icon($size, $fill) {
+  &::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="#{$size}" width="#{$size}" focusable="false" viewBox="0 0 100 100"><circle cx="50" cy="50" fill="none" r="45" stroke-linecap="round" stroke-width="10" class="hvsSwK" style="stroke-dashoffset: 226.195;stroke-dasharray: 282.743;stroke: #{$fill};"/></svg>');
+  }
+}
+
+.wee-spinner {
+  @include wee-function--spinner-icon(30, $wee-spinner-fill);
+  animation: wee-animation--spinner-spin .86s cubic-bezier(.4, .15, .6, .85) infinite;
+  display: inline-block;
+
+  @keyframes wee-animation--spinner-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  &--xlarge {
+    @include wee-function--spinner-icon(100, $wee-spinner-fill);
+  }
+
+  &--large {
+    @include wee-function--spinner-icon(50, $wee-spinner-fill);
+  }
+
+  &--small {
+    @include wee-function--spinner-icon(20, $wee-spinner-fill);
+  }
+
+  &--light {
+    @include wee-function--spinner-icon(30, $wee-spinner-light-fill);
+
+    &.wee-spinner--xlarge {
+      @include wee-function--spinner-icon(100, $wee-spinner-light-fill);
+    }
+
+    &.wee-spinner--large {
+      @include wee-function--spinner-icon(50, $wee-spinner-light-fill);
+    }
+
+    &.wee-spinner--small {
+      @include wee-function--spinner-icon(20, $wee-spinner-light-fill);
+    }
+  }
+}

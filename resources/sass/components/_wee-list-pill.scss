@@ -1,0 +1,40 @@
+$wee-list-pill-color: $aui-n500;
+$wee-list-pill-hover-bg-color: #eaecef;
+$wee-list-pill-focus-bg-color: $aui-b50;
+$wee-pill-active-color: $aui-b400;
+
+
+.wee-list-pill {
+  display: block;
+  max-height: 100%;
+  overflow: auto;
+
+  li {
+    display: block;
+  }
+
+  a {
+    color: $wee-list-pill-color;
+    display: block;
+    font-size: px(14);
+    font-weight: 400;
+    line-height: px(19);
+    padding: 11px 8px;
+
+    &:hover {
+      background-color: $wee-list-pill-hover-bg-color;
+    }
+
+    &:focus {
+      background-color: $wee-list-pill-focus-bg-color;
+    }
+
+    &.active {
+      background-color: $wee-list-pill-hover-bg-color;
+
+      &:focus {
+        background-color: $wee-list-pill-focus-bg-color;
+      }
+    }
+  }
+}

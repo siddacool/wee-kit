@@ -1,0 +1,106 @@
+$wee-text-bg-color: $aui-n10;
+$wee-text-boder-color: $aui-n20;
+$wee-text-hover-bg-color: $aui-n20;
+$wee-text-focus-bg-color: $aui-n0;
+$wee-text-focus-boder-color: $aui-b100;
+
+$wee-text-disable-text-color: $aui-n70;
+$wee-text-disable-bg-color: $aui-n20;
+
+$wee-text-warning-border-color: $aui-y400;
+
+$wee-text-danger-border-color: $aui-r400;
+
+@mixin wee-mixin--text-validations {
+  background-color: #fff;
+  border-width: 2px;
+  padding: 8px 6px;
+
+  &:hover,
+  &:focus {
+    background-color: #fff;
+  }
+}
+
+.wee-text {
+  background-color: $wee-text-bg-color;
+  border: 1px solid $wee-text-boder-color;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: px(14);
+  max-width: 100%;
+  min-height: 20px;
+  overflow: hidden;
+  padding: 9px 7px;
+  transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+  word-wrap: break-word;
+
+  &:hover {
+    background-color: $wee-text-hover-bg-color;
+  }
+
+  &:focus {
+    background-color: $wee-text-focus-bg-color;
+    border: 2px solid $wee-text-focus-boder-color;
+    padding: 8px 6px;
+  }
+
+  &--warning {
+    @include wee-mixin--text-validations;
+    border-color: $wee-text-warning-border-color;
+
+    &:focus {
+      border-color: $wee-text-warning-border-color;
+    }
+  }
+
+  &--danger {
+    @include wee-mixin--text-validations;
+    border-color: $wee-text-danger-border-color;
+
+    &:focus {
+      border-color: $wee-text-danger-border-color;
+    }
+  }
+
+  &--disable {
+    background-color: $wee-text-disable-bg-color;
+    color: $wee-text-disable-text-color;
+
+    &::placeholder {
+      color: $wee-text-disable-text-color;
+    }
+
+    &:hover {
+      background-color: $wee-text-disable-bg-color;
+    }
+
+    &:focus {
+      background-color: $wee-text-disable-bg-color;
+      border-color: $wee-text-boder-color;
+    }
+  }
+
+  &--large {
+    font-size: px(16);
+    padding-bottom: 11px;
+    padding-top: 11px;
+
+    &:focus {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  }
+
+  &--small {
+    font-size: px(13);
+    padding-bottom: 7px;
+    padding-top: 7px;
+
+    &:focus {
+      padding-bottom: 6px;
+      padding-top: 6px;
+    }
+  }
+}

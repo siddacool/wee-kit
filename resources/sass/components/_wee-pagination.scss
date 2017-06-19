@@ -1,0 +1,72 @@
+$wee-pagination-text-color: $aui-b400;
+$wee-pagination-hover-text-color: $aui-b300;
+$wee-pagination-active-text-color: #000;
+$wee-pagination-disable-text-color: $aui-n70;
+
+.wee-pagination {
+  color: $wee-pagination-text-color;
+  display: block;
+  font-size: px(14);
+  margin: .5rem 0;
+
+  ul {
+    display: block;
+  }
+
+  li {
+    display: inline-block;
+
+    &:first-child {
+      a {
+        padding-left: 0;
+      }
+    }
+
+    &:last-child {
+      a {
+        padding-right: 0;
+      }
+    }
+
+    &.active {
+      a {
+        color: $wee-pagination-active-text-color;
+        cursor: default;
+        font-weight: 700;
+        text-decoration: initial;
+      }
+    }
+
+    &.disable {
+      a {
+        color: $wee-pagination-disable-text-color;
+        cursor: default;
+        text-decoration: initial;
+      }
+    }
+  }
+
+  a {
+    cursor: pointer;
+    display: block;
+    padding: 0 12px;
+    text-decoration-skip: ink;
+
+    &:hover {
+      color: $wee-pagination-hover-text-color;
+      text-decoration: underline;
+    }
+  }
+
+  &--large {
+    font-size: px(17);
+
+    a {
+      padding: 0 14px;
+    }
+  }
+
+  &--small {
+    font-size: px(13);
+  }
+}

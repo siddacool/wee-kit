@@ -1,0 +1,57 @@
+$wee-breadcrumbs-text-color: $aui-n300;
+
+.wee-breadcrumbs {
+  color: $wee-breadcrumbs-text-color;
+  display: block;
+  font-size: px(14);
+  margin: .5rem 0;
+
+  ul {
+    display: block;
+  }
+
+  li {
+    display: inline-block;
+
+    &:first-child {
+      a {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  a {
+    cursor: pointer;
+    display: block;
+    text-decoration-skip: ink;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &::before {
+      content: '/';
+      display: inline-block;
+      margin-right: 3px;
+      text-align: center;
+      width: 17px;
+    }
+  }
+
+  &--large {
+    font-size: px(17);
+
+    a {
+      &::before {
+        margin-right: 5px;
+        width: 19px;
+      }
+    }
+  }
+
+  &--small {
+    font-size: px(13);
+  }
+}

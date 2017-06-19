@@ -1,0 +1,16 @@
+$wee-tooltip-color: #fff;
+$wee-tooltip-bg-color: $aui-n900;
+
+.wee-tooltip {
+  background-color: $wee-tooltip-bg-color;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: $wee-tooltip-color;
+  display: inline-block;
+  font-size: 12px;
+  margin: 8px;
+  max-width: 420px;
+  padding: 2px 8px;
+  pointer-events: none;
+  white-space: nowrap;
+}

@@ -1,0 +1,188 @@
+$wee-dropdown-bg-color: $aui-n10;
+$wee-dropdown-text-color: $aui-n800;
+$wee-dropdown-boder-color: $aui-n20;
+$wee-dropdown-hover-bg-color: $aui-n20;
+$wee-dropdown-focus-text-color: $aui-n20;
+$wee-dropdown-focus-bg-color: $aui-n700;
+$wee-dropdown-focus-boder-color: $aui-n700;
+$wee-dropdown-placeholder-color: $aui-n200;
+$wee-dropdown-list-li-bg-color: $aui-n20;
+
+$wee-dropdown-disable-text-color: $aui-n70;
+$wee-dropdown-disable-bg-color: $aui-n20;
+$wee-dropdown-warning-border-color: $aui-y400;
+$wee-dropdown-danger-border-color: $aui-r400;
+
+
+@mixin wee-mixin--dropdown-validations {
+  background-color: #fff;
+  border-width: 2px;
+  padding: 8px 6px;
+
+  &:hover,
+  &:focus {
+    background-color: #fff;
+  }
+}
+
+.wee-dropdown {
+  color: $wee-dropdown-text-color;
+  display: block;
+  margin: 10px 0;
+  position: relative;
+
+  select {
+    left: -9999px;
+    opacity: 0;
+    position: absolute;
+  }
+
+  .select-selection {
+    background-color: $wee-dropdown-bg-color;
+    border: 1px solid $wee-dropdown-boder-color;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: px(14);
+    max-width: 100%;
+    min-height: 20px;
+    overflow: hidden;
+    padding: 9px 7px;
+    padding-right: 40px;
+    position: relative;
+    transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+    word-wrap: break-word;
+
+    &:hover {
+      background-color: $wee-dropdown-hover-bg-color;
+    }
+
+    &::selection {
+      background-color: transparent;
+    }
+
+    &::after {
+      content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="24" height="24" viewBox="0 0 24 24"><path d="M9.2 10.2c-0.2-0.2-0.5-0.1-0.7 0.1 0 0 0 0 0 0l-0.3 0.4c-0.2 0.2-0.1 0.5 0.1 0.7 0 0 0 0 0 0l3.2 2.1c0.2 0.2 0.6 0.2 0.8 0l3.2-2.1c0.2-0.2 0.3-0.5 0.1-0.7 0 0 0 0 0 0l-0.3-0.4c-0.2-0.2-0.5-0.3-0.7-0.1l-2.4 1.6c-0.3 0.2-0.6 0.2-0.8 0L9.2 10.2 9.2 10.2z"/></svg>');
+      display: block;
+      position: absolute;
+      right: 8px;
+      top: 7px;
+
+      &::selection {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .select-placeholder {
+    color: $wee-dropdown-placeholder-color;
+
+    &::selection {
+      background-color: transparent;
+    }
+  }
+
+  .select-list {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px -2px rgba(9, 30, 66, .25), 0 0 1px rgba(9, 30, 66, .31);
+    box-sizing: border-box;
+    display: none;
+    margin-top: 7px;
+    overflow: auto;
+    padding: 4px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 200;
+
+    li {
+      box-sizing: border-box;
+      cursor: pointer;
+      display: block;
+      font-size: px(14);
+      font-weight: 400;
+      padding: 8px 12px;
+
+      &:hover {
+        background-color: $wee-dropdown-list-li-bg-color;
+      }
+    }
+  }
+
+  &--warning {
+    .select-selection {
+      @include wee-mixin--dropdown-validations;
+      border-color: $wee-dropdown-warning-border-color;
+    }
+  }
+
+  &--danger {
+    .select-selection {
+      @include wee-mixin--dropdown-validations;
+      border-color: $wee-dropdown-danger-border-color;
+    }
+  }
+
+  &--disable {
+    .select-selection {
+      background-color: $wee-dropdown-disable-bg-color;
+      color: $wee-dropdown-disable-text-color;
+      cursor: not-allowed;
+    }
+
+    .select-list {
+      display: none;
+    }
+  }
+
+  &--active {
+    .select-selection {
+      background-color: $wee-dropdown-focus-bg-color;
+      color: $wee-dropdown-focus-text-color;
+
+      &:hover {
+        background-color: $wee-dropdown-focus-bg-color;
+      }
+
+      &::after {
+        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="#{$wee-dropdown-focus-text-color}" focusable="false" width="24" height="24" viewBox="0 0 24 24"><path d="M9.2 10.2c-0.2-0.2-0.5-0.1-0.7 0.1 0 0 0 0 0 0l-0.3 0.4c-0.2 0.2-0.1 0.5 0.1 0.7 0 0 0 0 0 0l3.2 2.1c0.2 0.2 0.6 0.2 0.8 0l3.2-2.1c0.2-0.2 0.3-0.5 0.1-0.7 0 0 0 0 0 0l-0.3-0.4c-0.2-0.2-0.5-0.3-0.7-0.1l-2.4 1.6c-0.3 0.2-0.6 0.2-0.8 0L9.2 10.2 9.2 10.2z"/></svg>');
+      }
+    }
+
+    .select-placeholder {
+      color: $wee-dropdown-focus-text-color;
+    }
+
+    .select-list {
+      display: block;
+    }
+  }
+
+  &--large {
+    .select-selection {
+      font-size: px(16);
+      padding-bottom: 11px;
+      padding-top: 11px;
+      padding-right: 40px;
+
+      &::after {
+        top: 11px;
+      }
+    }
+  }
+
+  &--small {
+    .select-selection {
+      font-size: px(13);
+      padding-bottom: 7px;
+      padding-top: 7px;
+
+      &::after {
+        right: 7px;
+        top: 6px;
+      }
+    }
+  }
+}
