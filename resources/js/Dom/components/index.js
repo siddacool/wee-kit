@@ -20,7 +20,7 @@ import Tooltip from './Tooltip';
 import Spinner from './Spinner';
 import Tab from './Tab';
 import Heading from './Heading';
-//import Color from './Color';
+import Color from './Color';
 
 const Components = (catalog) => {
   catalog.add(Text);
@@ -45,7 +45,7 @@ const Components = (catalog) => {
   catalog.add(Spinner);
   catalog.add(Tab);
   catalog.add(Heading);
-  //catalog.add(Color);
+  catalog.add(Color);
 };
 
 export default Components;
