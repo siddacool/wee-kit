@@ -5,7 +5,7 @@ const path = require('path');
 const cheerio = require('gulp-cheerio');
 const svgstore = require('gulp-svgstore');
 const svgmin = require('gulp-svgmin');
-const appPath = require('./public/dist/build/rev-manifest.json');
+const appPath = require('./gh-pages/public/dist/build/rev-manifest.json');
 
 gulp.task('html-templates', () => {
   gulp.src('./views/*.ejs')

@@ -1,0 +1,28 @@
+@function basetable($value_base, $value_iterator) {
+  @return ($value_base * $value_iterator) + px;
+}
+
+@function basetableplain($value_base, $value_iterator) {
+  @return $value_base * $value_iterator;
+}
+
+$wee-grid-base-size: $grid-base-size;
+$wee-grid-base-size-half: basetable($grid-base-size, 0.5);
+$wee-grid-base-size-1: basetable($grid-base-size, 1);
+$wee-grid-base-size-2: basetable($grid-base-size, 2);
+$wee-grid-base-size-3: basetable($grid-base-size, 3);
+$wee-grid-base-size-4: basetable($grid-base-size, 4);
+$wee-grid-base-size-5: basetable($grid-base-size, 5);
+$wee-grid-base-size-6: basetable($grid-base-size, 6);
+$wee-grid-base-size-7: basetable($grid-base-size, 7);
+$wee-grid-base-size-8: basetable($grid-base-size, 8);
+$wee-grid-base-size-9: basetable($grid-base-size, 9);
+$wee-grid-base-size-10: basetable($grid-base-size, 10);
+$wee-grid-base-size-11: basetable($grid-base-size, 11);
+$wee-grid-base-size-12: basetable($grid-base-size, 12);
+
+// breakpoints
+$wee-grid-breakpoint-sm: 576px;
+$wee-grid-breakpoint-md: 768px;
+$wee-grid-breakpoint-lg: 992px;
+$wee-grid-breakpoint-xl: 1200px;

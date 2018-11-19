@@ -21,6 +21,7 @@ import Spinner from './Spinner';
 import Tab from './Tab';
 import Heading from './Heading';
 import Color from './Color';
+import Grid from './Grid';
 
 const Components = (catalog) => {
   catalog.add(Text);
@@ -46,6 +47,7 @@ const Components = (catalog) => {
   catalog.add(Tab);
   catalog.add(Heading);
   catalog.add(Color);
+  catalog.add(Grid);
 };
 
 export default Components;
