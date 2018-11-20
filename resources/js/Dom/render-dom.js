@@ -9,7 +9,7 @@ function renderDom(componentList) {
               <div class="head-section">
                  <div class="wee-row">
                   <div class="wee-col wee-col--no-gutters wee-col--12">
-                    <h1 class="wee-heading wee-heading--h900">${component.fieldName}<h1>
+                    <h1 class="wee-heading wee-heading--h900">${component.fieldName}</h1>
                   </div>
                   <div class="wee-col wee-col--no-gutters wee-col--12">
                     <p class="wee-heading wee-heading--description">${component.description}</p>

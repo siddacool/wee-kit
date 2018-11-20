@@ -51,7 +51,7 @@ $wee-tag-remove-bg-color: #ffebe6;
   }
 
   &--remove {
-    padding-right: 25px;
+    padding-right: $wee-grid-base-size-3;
     position: relative;
 
     &:hover {

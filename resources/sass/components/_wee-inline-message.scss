@@ -7,7 +7,7 @@ $wee-inline-message-info-icon-color: $aui-p300;
 
 .wee-inline-message {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: $wee-grid-base-size-1;
   padding: 0 8px;
   position: relative;
 

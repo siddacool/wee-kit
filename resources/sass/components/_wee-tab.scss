@@ -6,7 +6,7 @@ $wee-tab-active-color: $aui-b400;
   .tab-list {
     display: block;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: $wee-grid-base-size-1;
     padding: 0;
     position: relative;
 

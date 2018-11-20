@@ -34,7 +34,7 @@ $wee-checkbox-disable-bg-color: $aui-n70;
 
   span {
     display: inline-block;
-    padding-left: 7px;
+    padding-left: $wee-grid-base-size-1;
 
     &::selection {
       background-color: transparent;

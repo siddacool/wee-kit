@@ -20,7 +20,7 @@
 .components-holder {
   flex: 1;
   height: 100%;
-  overflow: auto;
+  overflow-y: overlay;
 
   .component-sub-holder {
     padding: $wee-grid-base-size-3;

@@ -4,9 +4,9 @@ $wee-banner-danger-color: #fff;
 $wee-banner-danger-bg-color: $aui-r400;
 
 .wee-banner {
-  margin-bottom: 8px;
+  margin-bottom: $wee-grid-base-size-1;
   max-height: 52px;
-  padding: 16px;
+  padding: $wee-grid-base-size-2;
   position: relative;
   text-align: center;
 

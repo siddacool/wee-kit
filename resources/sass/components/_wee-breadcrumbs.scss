@@ -4,7 +4,7 @@ $wee-breadcrumbs-text-color: $aui-n300;
   color: $wee-breadcrumbs-text-color;
   display: block;
   font-size: px(14);
-  margin: .5rem 0;
+  margin: $wee-grid-base-size-1 0;
 
   ul {
     display: block;
@@ -34,9 +34,9 @@ $wee-breadcrumbs-text-color: $aui-n300;
     &::before {
       content: '/';
       display: inline-block;
-      margin-right: 3px;
+      margin-right: $wee-grid-base-size-half;
       text-align: center;
-      width: 17px;
+      width: $wee-grid-base-size-2;
     }
   }
 
@@ -45,8 +45,8 @@ $wee-breadcrumbs-text-color: $aui-n300;
 
     a {
       &::before {
-        margin-right: 5px;
-        width: 19px;
+        margin-right: $wee-grid-base-size-1;
+        width: $wee-grid-base-size-3;
       }
     }
   }

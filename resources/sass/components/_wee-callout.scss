@@ -11,8 +11,8 @@ $wee-callout-new-border-color: $aui-p75;
   border-left-style: solid;
   border-left-width: 3px;
   border-radius: 3px;
-  margin-bottom: 10px;
-  padding: 5px 10px;
+  margin-bottom: $wee-grid-base-size-1;
+  padding: $wee-grid-base-size-half $wee-grid-base-size-1;
 
   &--default {
     border-left-color: $wee-callout-border-color;
