@@ -26,3 +26,21 @@ $wee-grid-breakpoint-sm: 576px;
 $wee-grid-breakpoint-md: 768px;
 $wee-grid-breakpoint-lg: 992px;
 $wee-grid-breakpoint-xl: 1200px;
+
+
+// breakpoints media queries
+@mixin wee-grid-breakpoint-sm {
+  @media (min-width: $wee-grid-breakpoint-sm) { @content; }
+}
+
+@mixin wee-grid-breakpoint-md {
+  @media (min-width: $wee-grid-breakpoint-md) { @content; }
+}
+
+@mixin wee-grid-breakpoint-lg {
+  @media (min-width: $wee-grid-breakpoint-lg) { @content; }
+}
+
+@mixin wee-grid-breakpoint-xl {
+  @media (min-width: $wee-grid-breakpoint-xl) { @content; }
+}

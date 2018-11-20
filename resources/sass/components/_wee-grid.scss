@@ -223,6 +223,10 @@ $wee-grid-part-12: 100%;
       margin-left: $wee-grid-part-12;
     }
 
+    &--offset-left-auto {
+      margin-left: auto;
+    }
+
     &--offset-right-0 {
       margin-right: 0;
     }
@@ -273,6 +277,1042 @@ $wee-grid-part-12: 100%;
 
     &--offset-right-12 {
       margin-right: $wee-grid-part-12;
+    }
+
+    &--offset-right-auto {
+      margin-right: auto;
+    }
+
+    &--sm-1 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-1;
+        max-width: $wee-grid-part-1;
+      }
+    }
+
+    &--sm-2 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-2;
+        max-width: $wee-grid-part-2;
+      }
+    }
+
+    &--sm-3 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-3;
+        max-width: $wee-grid-part-3;
+      }
+    }
+
+    &--sm-4 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-4;
+        max-width: $wee-grid-part-4;
+      }
+    }
+
+    &--sm-5 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-5;
+        max-width: $wee-grid-part-5;
+      }
+    }
+
+    &--sm-6 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-6;
+        max-width: $wee-grid-part-6;
+      }
+    }
+
+    &--sm-7 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-7;
+        max-width: $wee-grid-part-7;
+      }
+    }
+
+    &--sm-8 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-8;
+        max-width: $wee-grid-part-8;
+      }
+    }
+
+    &--sm-9 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-9;
+        max-width: $wee-grid-part-9;
+      }
+    }
+
+    &--sm-10 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-10;
+        max-width: $wee-grid-part-10;
+      }
+    }
+
+    &--sm-11 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-11;
+        max-width: $wee-grid-part-11;
+      }
+    }
+
+    &--sm-12 {
+      @include wee-grid-breakpoint-sm {
+        flex: 0 0 $wee-grid-part-12;
+        max-width: $wee-grid-part-12;
+      }
+    }
+
+    &--sm-auto {
+      @include wee-grid-breakpoint-sm {
+        flex: 1;
+      }
+    }
+
+    &--sm-offset-left-0 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: 0;
+      }
+    }
+
+    &--sm-offset-left-1 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-1;
+      }
+    }
+
+    &--sm-offset-left-2 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-2;
+      }
+    }
+
+    &--sm-offset-left-3 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-3;
+      }
+    }
+
+    &--sm-offset-left-4 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-4;
+      }
+    }
+
+    &--sm-offset-left-5 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-5;
+      }
+    }
+
+    &--sm-offset-left-6 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-6;
+      }
+    }
+
+    &--sm-offset-left-7 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-7;
+      }
+    }
+
+    &--sm-offset-left-8 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-8;
+      }
+    }
+
+    &--sm-offset-left-9 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-9;
+      }
+    }
+
+    &--sm-offset-left-10 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-10;
+      }
+    }
+
+    &--sm-offset-left-11 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-11;
+      }
+    }
+
+    &--sm-offset-left-12 {
+      @include wee-grid-breakpoint-sm {
+        margin-left: $wee-grid-part-12;
+      }
+    }
+
+    &--sm-offset-left-auto {
+      @include wee-grid-breakpoint-sm {
+        margin-left: auto;
+      }
+    }
+
+    &--sm-offset-right-0 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: 0;
+      }
+    }
+
+    &--sm-offset-right-1 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-1;
+      }
+    }
+
+    &--sm-offset-right-2 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-2;
+      }
+    }
+
+    &--sm-offset-right-3 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-3;
+      }
+    }
+
+    &--sm-offset-right-4 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-4;
+      }
+    }
+
+    &--sm-offset-right-5 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-5;
+      }
+    }
+
+    &--sm-offset-right-6 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-6;
+      }
+    }
+
+    &--sm-offset-right-7 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-7;
+      }
+    }
+
+    &--sm-offset-right-8 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-8;
+      }
+    }
+
+    &--sm-offset-right-9 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-9;
+      }
+    }
+
+    &--sm-offset-right-10 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-10;
+      }
+    }
+
+    &--sm-offset-right-11 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-11;
+      }
+    }
+
+    &--sm-offset-right-12 {
+      @include wee-grid-breakpoint-sm {
+        margin-right: $wee-grid-part-12;
+      }
+    }
+
+    &--sm-offset-right-auto {
+      @include wee-grid-breakpoint-sm {
+        margin-right: auto;
+      }
+    }
+
+    &--md-1 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-1;
+        max-width: $wee-grid-part-1;
+      }
+    }
+
+    &--md-2 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-2;
+        max-width: $wee-grid-part-2;
+      }
+    }
+
+    &--md-3 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-3;
+        max-width: $wee-grid-part-3;
+      }
+    }
+
+    &--md-4 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-4;
+        max-width: $wee-grid-part-4;
+      }
+    }
+
+    &--md-5 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-5;
+        max-width: $wee-grid-part-5;
+      }
+    }
+
+    &--md-6 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-6;
+        max-width: $wee-grid-part-6;
+      }
+    }
+
+    &--md-7 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-7;
+        max-width: $wee-grid-part-7;
+      }
+    }
+
+    &--md-8 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-8;
+        max-width: $wee-grid-part-8;
+      }
+    }
+
+    &--md-9 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-9;
+        max-width: $wee-grid-part-9;
+      }
+    }
+
+    &--md-10 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-10;
+        max-width: $wee-grid-part-10;
+      }
+    }
+
+    &--md-11 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-11;
+        max-width: $wee-grid-part-11;
+      }
+    }
+
+    &--md-12 {
+      @include wee-grid-breakpoint-md {
+        flex: 0 0 $wee-grid-part-12;
+        max-width: $wee-grid-part-12;
+      }
+    }
+
+    &--md-auto {
+      @include wee-grid-breakpoint-md {
+        flex: 1;
+      }
+    }
+
+    &--md-offset-left-0 {
+      @include wee-grid-breakpoint-md {
+        margin-left: 0;
+      }
+    }
+
+    &--md-offset-left-1 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-1;
+      }
+    }
+
+    &--md-offset-left-2 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-2;
+      }
+    }
+
+    &--md-offset-left-3 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-3;
+      }
+    }
+
+    &--md-offset-left-4 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-4;
+      }
+    }
+
+    &--md-offset-left-5 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-5;
+      }
+    }
+
+    &--md-offset-left-6 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-6;
+      }
+    }
+
+    &--md-offset-left-7 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-7;
+      }
+    }
+
+    &--md-offset-left-8 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-8;
+      }
+    }
+
+    &--md-offset-left-9 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-9;
+      }
+    }
+
+    &--md-offset-left-10 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-10;
+      }
+    }
+
+    &--md-offset-left-11 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-11;
+      }
+    }
+
+    &--md-offset-left-12 {
+      @include wee-grid-breakpoint-md {
+        margin-left: $wee-grid-part-12;
+      }
+    }
+
+    &--md-offset-left-auto {
+      @include wee-grid-breakpoint-md {
+        margin-left: auto;
+      }
+    }
+
+    &--md-offset-right-0 {
+      @include wee-grid-breakpoint-md {
+        margin-right: 0;
+      }
+    }
+
+    &--md-offset-right-1 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-1;
+      }
+    }
+
+    &--md-offset-right-2 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-2;
+      }
+    }
+
+    &--md-offset-right-3 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-3;
+      }
+    }
+
+    &--md-offset-right-4 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-4;
+      }
+    }
+
+    &--md-offset-right-5 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-5;
+      }
+    }
+
+    &--md-offset-right-6 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-6;
+      }
+    }
+
+    &--md-offset-right-7 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-7;
+      }
+    }
+
+    &--md-offset-right-8 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-8;
+      }
+    }
+
+    &--md-offset-right-9 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-9;
+      }
+    }
+
+    &--md-offset-right-10 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-10;
+      }
+    }
+
+    &--md-offset-right-11 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-11;
+      }
+    }
+
+    &--md-offset-right-12 {
+      @include wee-grid-breakpoint-md {
+        margin-right: $wee-grid-part-12;
+      }
+    }
+
+    &--md-offset-right-auto {
+      @include wee-grid-breakpoint-md {
+        margin-right: auto;
+      }
+    }
+
+    &--lg-1 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-1;
+        max-width: $wee-grid-part-1;
+      }
+    }
+
+    &--lg-2 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-2;
+        max-width: $wee-grid-part-2;
+      }
+    }
+
+    &--lg-3 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-3;
+        max-width: $wee-grid-part-3;
+      }
+    }
+
+    &--lg-4 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-4;
+        max-width: $wee-grid-part-4;
+      }
+    }
+
+    &--lg-5 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-5;
+        max-width: $wee-grid-part-5;
+      }
+    }
+
+    &--lg-6 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-6;
+        max-width: $wee-grid-part-6;
+      }
+    }
+
+    &--lg-7 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-7;
+        max-width: $wee-grid-part-7;
+      }
+    }
+
+    &--lg-8 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-8;
+        max-width: $wee-grid-part-8;
+      }
+    }
+
+    &--lg-9 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-9;
+        max-width: $wee-grid-part-9;
+      }
+    }
+
+    &--lg-10 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-10;
+        max-width: $wee-grid-part-10;
+      }
+    }
+
+    &--lg-11 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-11;
+        max-width: $wee-grid-part-11;
+      }
+    }
+
+    &--lg-12 {
+      @include wee-grid-breakpoint-lg {
+        flex: 0 0 $wee-grid-part-12;
+        max-width: $wee-grid-part-12;
+      }
+    }
+
+    &--lg-auto {
+      @include wee-grid-breakpoint-lg {
+        flex: 1;
+      }
+    }
+
+    &--lg-offset-left-0 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: 0;
+      }
+    }
+
+    &--lg-offset-left-1 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-1;
+      }
+    }
+
+    &--lg-offset-left-2 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-2;
+      }
+    }
+
+    &--lg-offset-left-3 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-3;
+      }
+    }
+
+    &--lg-offset-left-4 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-4;
+      }
+    }
+
+    &--lg-offset-left-5 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-5;
+      }
+    }
+
+    &--lg-offset-left-6 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-6;
+      }
+    }
+
+    &--lg-offset-left-7 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-7;
+      }
+    }
+
+    &--lg-offset-left-8 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-8;
+      }
+    }
+
+    &--lg-offset-left-9 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-9;
+      }
+    }
+
+    &--lg-offset-left-10 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-10;
+      }
+    }
+
+    &--lg-offset-left-11 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-11;
+      }
+    }
+
+    &--lg-offset-left-12 {
+      @include wee-grid-breakpoint-lg {
+        margin-left: $wee-grid-part-12;
+      }
+    }
+
+    &--lg-offset-left-auto {
+      @include wee-grid-breakpoint-lg {
+        margin-left: auto;
+      }
+    }
+
+    &--lg-offset-right-0 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: 0;
+      }
+    }
+
+    &--lg-offset-right-1 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-1;
+      }
+    }
+
+    &--lg-offset-right-2 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-2;
+      }
+    }
+
+    &--lg-offset-right-3 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-3;
+      }
+    }
+
+    &--lg-offset-right-4 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-4;
+      }
+    }
+
+    &--lg-offset-right-5 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-5;
+      }
+    }
+
+    &--lg-offset-right-6 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-6;
+      }
+    }
+
+    &--lg-offset-right-7 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-7;
+      }
+    }
+
+    &--lg-offset-right-8 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-8;
+      }
+    }
+
+    &--lg-offset-right-9 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-9;
+      }
+    }
+
+    &--lg-offset-right-10 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-10;
+      }
+    }
+
+    &--lg-offset-right-11 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-11;
+      }
+    }
+
+    &--lg-offset-right-12 {
+      @include wee-grid-breakpoint-lg {
+        margin-right: $wee-grid-part-12;
+      }
+    }
+
+    &--lg-offset-right-auto {
+      @include wee-grid-breakpoint-lg {
+        margin-right: auto;
+      }
+    }
+
+    &--xl-1 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-1;
+        max-width: $wee-grid-part-1;
+      }
+    }
+
+    &--xl-2 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-2;
+        max-width: $wee-grid-part-2;
+      }
+    }
+
+    &--xl-3 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-3;
+        max-width: $wee-grid-part-3;
+      }
+    }
+
+    &--xl-4 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-4;
+        max-width: $wee-grid-part-4;
+      }
+    }
+
+    &--xl-5 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-5;
+        max-width: $wee-grid-part-5;
+      }
+    }
+
+    &--xl-6 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-6;
+        max-width: $wee-grid-part-6;
+      }
+    }
+
+    &--xl-7 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-7;
+        max-width: $wee-grid-part-7;
+      }
+    }
+
+    &--xl-8 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-8;
+        max-width: $wee-grid-part-8;
+      }
+    }
+
+    &--xl-9 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-9;
+        max-width: $wee-grid-part-9;
+      }
+    }
+
+    &--xl-10 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-10;
+        max-width: $wee-grid-part-10;
+      }
+    }
+
+    &--xl-11 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-11;
+        max-width: $wee-grid-part-11;
+      }
+    }
+
+    &--xl-12 {
+      @include wee-grid-breakpoint-xl {
+        flex: 0 0 $wee-grid-part-12;
+        max-width: $wee-grid-part-12;
+      }
+    }
+
+    &--xl-auto {
+      @include wee-grid-breakpoint-xl {
+        flex: 1;
+      }
+    }
+
+    &--xl-offset-left-0 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: 0;
+      }
+    }
+
+    &--xl-offset-left-1 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-1;
+      }
+    }
+
+    &--xl-offset-left-2 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-2;
+      }
+    }
+
+    &--xl-offset-left-3 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-3;
+      }
+    }
+
+    &--xl-offset-left-4 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-4;
+      }
+    }
+
+    &--xl-offset-left-5 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-5;
+      }
+    }
+
+    &--xl-offset-left-6 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-6;
+      }
+    }
+
+    &--xl-offset-left-7 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-7;
+      }
+    }
+
+    &--xl-offset-left-8 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-8;
+      }
+    }
+
+    &--xl-offset-left-9 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-9;
+      }
+    }
+
+    &--xl-offset-left-10 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-10;
+      }
+    }
+
+    &--xl-offset-left-11 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-11;
+      }
+    }
+
+    &--xl-offset-left-12 {
+      @include wee-grid-breakpoint-xl {
+        margin-left: $wee-grid-part-12;
+      }
+    }
+
+    &--xl-offset-left-auto {
+      @include wee-grid-breakpoint-xl {
+        margin-left: auto;
+      }
+    }
+
+    &--xl-offset-right-0 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: 0;
+      }
+    }
+
+    &--xl-offset-right-1 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-1;
+      }
+    }
+
+    &--xl-offset-right-2 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-2;
+      }
+    }
+
+    &--xl-offset-right-3 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-3;
+      }
+    }
+
+    &--xl-offset-right-4 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-4;
+      }
+    }
+
+    &--xl-offset-right-5 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-5;
+      }
+    }
+
+    &--xl-offset-right-6 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-6;
+      }
+    }
+
+    &--xl-offset-right-7 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-7;
+      }
+    }
+
+    &--xl-offset-right-8 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-8;
+      }
+    }
+
+    &--xl-offset-right-9 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-9;
+      }
+    }
+
+    &--xl-offset-right-10 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-10;
+      }
+    }
+
+    &--xl-offset-right-11 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-11;
+      }
+    }
+
+    &--xl-offset-right-12 {
+      @include wee-grid-breakpoint-xl {
+        margin-right: $wee-grid-part-12;
+      }
+    }
+
+    &--xl-offset-right-auto {
+      @include wee-grid-breakpoint-xl {
+        margin-right: auto;
+      }
     }
   }
 }
