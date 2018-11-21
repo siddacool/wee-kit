@@ -24,7 +24,7 @@ $wee-grid-part-12: 100%;
     }
 
     &--no-margin-bottom {
-      margin-bottom: $wee-grid-base-size-2;
+      margin-bottom: 0;
     }
 
     &--no-col-gutters {
@@ -32,6 +32,10 @@ $wee-grid-part-12: 100%;
         padding-left: 0;
         padding-right: 0;
       }
+    }
+
+    &--fill-height {
+      height: 100%;
     }
 
     &--reverse {
